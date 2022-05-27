@@ -1,5 +1,5 @@
 {{>layout/header}}
-<h1 class="h3 mb-2 text-gray-800">Affect Ticket to Dev</h1>
+<h1 class="h3 mb-2 text-gray-800">Affecter Ticket</h1>
 <form action="/admin/affect" method="POST">
   <div class="form-group">
     <label for="tickets">Tickets:</label>
@@ -10,7 +10,7 @@
     </select>
   </div>
   <div class="form-group">
-    <label for="tickets">Tickets:</label>
+    <label for="tickets">Dev:</label>
     <select class="form-control" id="devs" name="devId">
     {{#devs}}
         <option value="{{id}}">{{displayName}}</option>

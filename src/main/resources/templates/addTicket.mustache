@@ -1,5 +1,5 @@
 {{>layout/header}}
-<h1 class="h3 mb-2 text-gray-800">Add ticket</h1>
+<h1 class="h3 mb-2 text-gray-800">Ajouter ticket</h1>
 <form name="ticket" action="/client/tickets/add" method="POST">
   <div class="form-group">
     <label for="description">Description:</label>
@@ -18,7 +18,7 @@
       <input type="text" class="form-control" id="os" name="os">
   </div>
   <div class="form-group">
-    <label for="app">Software:</label>
+    <label for="app">Logiciel:</label>
     <select class="form-control" id="app" name="software">
     {{#apps}}
         <option value="{{id}}">{{name}}</option>

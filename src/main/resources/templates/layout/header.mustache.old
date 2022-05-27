@@ -38,7 +38,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/tickets">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Tickets List</span></a>
+                    <span>Tickets Listes</span></a>
             </li>
 
             <!-- Divider -->
@@ -61,17 +61,6 @@
                             <i class="fa fa-bars"></i>
                         </button>
                     </form>
-
-                    <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <div class="topbar-divider d-none d-sm-block"></div>
-
-                        <!-- Nav Item - User Information -->
-                        <li class="nav-item dropdown no-arrow">
-                                <span class="mr-2 d-none d-lg-inline text-gray-700">Douglas McGee</span>
-                        </li>
-
-                    </ul>
 
                 </nav>
                 <!-- End of Topbar -->

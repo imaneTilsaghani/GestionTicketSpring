@@ -9,14 +9,14 @@
           crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/dc522288eb.js" crossorigin="anonymous"></script>
 
-    <title>Gestion Tickets</title>
+    <title>Gestion Des Tickets</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
    
     <div class="navbar-header">
   
-       <img src="https://www.emsi.ma/wp-content/uploads/2020/07/logo-1.png" width="200px" height="50px" alt="logo">
+       <img src="https://website-assets-fd.freshworks.com/attachments/cjj9ll3bk005frnfz2heg996x-ticketing-system-guide-2x.one-half.png" width="100px" height="50px" alt="logo">
     </div>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,36 +26,36 @@
         <ul class="navbar-nav mr-auto">
         {{#admin}}
             <li class="nav-item">
-                <a class="nav-link" href="/admin/tickets">List Tickets</span></a>
+                <a class="nav-link" href="/admin/tickets">Listes Tickets</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/admin/apps">List Apps</a>
+                <a class="nav-link" href="/admin/apps">Listes Applications</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/admin/apps/add">Add App</a>
+                <a class="nav-link" href="/admin/apps/add">Ajouter App</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/admin/affect">Affect Ticket</a>
+                <a class="nav-link" href="/admin/affect">Affecter Ticket</a>
             </li>
         {{/admin}}
         {{#client}}
             <li class="nav-item">
-                <a class="nav-link" href="/client/{{id}}/tickets">List Tickets</span></a>
+                <a class="nav-link" href="/client/{{id}}/tickets">Listes Tickets</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/client/tickets/add">Add Ticket</a>
+                <a class="nav-link" href="/client/tickets/add">Ajouter Ticket</a>
             </li>
         {{/client}}
         {{#dev}}
             <li class="nav-item">
-                <a class="nav-link" href="/dev/{{id}}/tickets">List Tickets</span></a>
+                <a class="nav-link" href="/dev/{{id}}/tickets">Listes Tickets</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/dev/{{id}}/status">Update Tickets</span></a>
+                <a class="nav-link" href="/dev/{{id}}/status">Modifier Tickets</span></a>
             </li>
         {{/dev}}
             <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
+                <a class="nav-link" href="/logout">Se deconnecter</a>
             </li>
         </ul>
         </form>
